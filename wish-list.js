@@ -101,6 +101,8 @@ $(".js-add-to-cart").on("click", function(e) {
   e.preventDefault();
   variantID = $(this).attr("data-id");
   $('#product-select').attr("value", variantID);
+  // uncomment next line if you want a product to be removed from the wish list when it is added to the cart
+  //removeFromWishlist($(this));
   $('#add-variant').submit();
 });
 
