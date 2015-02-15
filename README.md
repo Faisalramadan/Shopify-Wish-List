@@ -1,6 +1,19 @@
 Shopify-Wish-List
 =================
 
+**CHANGES IN THIS BRANCH:**
+
+* Works with product variants
+* Assumes you are using Shopify's `option_selection.js`
+* Assumes you are using jQuery
+* Shows message when wish list is empty
+* Uses AJAX to add items to wish list
+* Uses AJAX to remove items from wish list
+* Added images to wish list
+
+
+---
+
 non-app wish list using customer.tags
 
 To make this wish list work, you'll need to add an include tag for wishlist-product.liquid in your product page -- make sure that it is not within the add-to-cart form. And you'll need to add an include tag for wishlist-page.liquid in a page with the handle wish-list. 
