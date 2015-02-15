@@ -12,6 +12,8 @@ Shopify-Wish-List
 * Added images to wish list
 * Option to remove items from wish list when added to cart
 
+Also, it will (I think—I haven't tested it) be reliant on using `product.selected_or_first_available_variant` instead of just `product` in your product template. See the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) for examples of this.
+
 
 ---
 
