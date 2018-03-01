@@ -1,6 +1,10 @@
 Shopify-Wish-List
 =================
 
+**IMPORTANT CHANGE**
+
+@zakhardage reports that the wish list no longer works. Check out his [repo](https://github.com/zakhardage/Shopify-Wish-List) for details. I'm now taking this off my clients site.
+
 **CHANGES IN THIS BRANCH:**
 
 * Works with product variants
@@ -13,9 +17,6 @@ Shopify-Wish-List
 * Option to remove items from wish list when added to cart
 
 Also, it will (I think—I haven't tested it) be reliant on using `product.selected_or_first_available_variant` instead of just `product` in your product template. See the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) for examples of this.
-
-For a working example of this wish list, see [Sea Chi's website](http://www.seachi.com).
-
 
 ---
 
